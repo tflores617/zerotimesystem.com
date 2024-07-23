@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="modal.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+
+
+
+<div id="modalContainer" class="modal-container">
+    <div id="modalBackground" class="modal-background">
+    </div>
+    <div id="modalImageContainer" class="modal-image-container">
+        <img id="modalImage" class="modal-image" src="/images/graphs/average-whole-head.svg"/>
+    </div>
+    <div id="exitCont" class="exit-cont">
+        <div id="exitButton" class="exit-button">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelector('#exitButton').addEventListener('click', function(){exitModal()});
+
+    function exitModal(){
+        let modal = document.querySelector('#modalContainer');
+        modal.classList.add('exit-activated');
+        setTimeout(
+            function(){
+                console.log('removed');
+                let modal = document.querySelector('#modalContainer');
+                modal.parentNode.removeChild(modal);
+            },
+            3000); 
+    }
+</script>

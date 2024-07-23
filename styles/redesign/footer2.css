@@ -1,0 +1,220 @@
+/* FOOTER */
+
+
+footer {
+  margin: 0 auto;
+  border-color: black;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 175px;
+}
+
+#footer-l-cont {
+  justify-content: center;
+}
+#footer-m-cont {
+  justify-content: center;
+
+}
+#footer-r-cont {
+    padding: 15px 30px 15px 30px;
+    /*height: 100%;*/
+    flex-wrap: wrap;
+}
+
+.footer-cont {
+
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+span.social {
+    font-size: 20px;
+}
+
+div.social-cont {
+    height: 50%;
+    max-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.phone {
+    width: 100%;
+    height: auto;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#number-cont {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+div.phone-cont {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+  margin-left: 10%;
+}
+
+
+/* BUY NOW */
+
+.buy-now-cont {
+    width: 100%;
+    height:100px;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+.buy-now {
+    width: 50%;
+    height: 50px; 
+    background-color: #222222;
+    border-style: none; 
+    border-radius: 3px;
+    font-size: 24px;
+    color: #eeeeee;
+
+}
+.buy-now:hover {
+    -webkit-transition: background-color, .5s;
+    transition: background-color, .5s;
+    cursor: pointer;
+    background-color: #000000;
+
+}
+/*
+lighter : #0090FF
+darker : #0066CC
+
+*/
+
+
+
+
+@media screen and (max-width: 792px) {
+    footer {
+        width: 90%;
+        height: 150px;
+    }
+    .footer-cont {
+        width: 100%;
+        height: 33%;
+    }
+    span.social {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    div.social-cont {
+
+    }
+    i.email {
+        padding-right: 5px;
+    }
+    i.phone {
+        padding-right: 10px;
+    }
+    span.phone {
+        font-size: 12px;
+    }
+    #footer-r-cont {
+        padding: 0px;
+    }
+    i.social {
+      font-size: 16px;
+    }
+    div#number-cont {
+        padding: 0px;
+        height: auto;
+    }
+    div#phone-icon-cont {
+
+    }
+    div.social-cont {
+        width: 50%;
+        height: 100%;
+    }
+    div.phone-cont {
+        width: auto;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 600px) {
+    span.social, span.phone {
+        font-size: 14px;
+    }
+    .buy-now {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 793px) {
+    span.social, span.phone {
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (min-width: 900px) {
+    span.social, span.phone {
+        font-size: 15px;
+    }
+    i.social {
+        font-size: 20px;
+    }
+    .buy-now {
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1150px) {
+    span.social {
+        margin-left: 30px;
+    }
+    span.social, span.phone {
+        font-size: 18px;
+    }
+    i.social {
+        font-size: 25px;
+    }
+
+}
+
+/*
+@media screen and (min-width: 481px) {}
+@media screen and (min-width: 793px) {}
+@media screen and (min-width: 1100px) {}
+@media screen and (min-width: 1680px) {}
+*/
+
+
+#fb-icon {
+  color: #4064ac;
+}
+
+
+
+
+a.social,
+a.social:focus,
+a.social:hover {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}

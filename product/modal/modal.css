@@ -1,0 +1,81 @@
+.modal-container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    position: fixed;
+    opacity: 0;
+}
+.modal-background {
+    background-color: #333333;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: .7;
+}
+
+.active {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    opacity: 1;
+
+}
+
+.modal-image-container {
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.modal-image {
+    display: block;
+    width: auto; 
+    min-width: 20%;
+    height: auto; 
+    min-height: 20%;
+    max-width: 70%;
+    z-index: 3;
+}
+
+.exit-cont {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    padding: 4%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    top:0;
+    left: 0;
+}
+.fas.fa-times {
+    color: white;
+    font-size: 30px;
+}
+.exit-button {
+    width: 8%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.exit-button:hover {
+    cursor: pointer;
+}
+
+.exit-activated {
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    opacity: 0;
+}

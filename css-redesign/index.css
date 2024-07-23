@@ -1,0 +1,254 @@
+
+.text {
+    font-weight:300;
+}
+section.first {
+    margin-top: 20px;
+}
+.grey {
+    background-color: #222222;
+}
+.white {
+    background-color: #ffffff;
+}
+
+
+#wrapper {
+    min-width: 300px;
+}
+
+
+/* NAV */
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.m-header nav a,
+.m-header nav a:hover,
+.m-header nav a:focus
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+.banner .nav-link,
+.banner .nav-link:hover,
+.banner .nav-link:focus
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+#nav-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+
+
+
+/* TEXT */
+.bold {
+    font-weight: 600;
+}
+  
+.indent {
+    margin-left: 20px;
+}
+
+.banner {
+    display: block;
+    position: relative;
+}
+
+.banner .title {
+    height: auto;
+}
+
+.banner img {
+    z-index: 3;
+    top:0;
+    left: 0;
+}
+.banner .inner{
+    position: absolute;
+    z-index: 4;
+    display: block;
+
+    color: black;
+}
+
+.no-padding {
+    padding: 0px !important ;
+}
+
+.banner .sub-1,
+.banner .sub-2 {
+    display: block;
+}
+
+.check-cont {
+    display: flex;
+}
+
+.check-inner {
+    font-family: 'Nunito Sans', sans-serif; 
+    border-style: solid;
+    background-color: rgba(0,0,0,0);
+
+}
+
+.check-inner span {
+    display: block;
+}
+
+
+.dn-arr-bttn-cont {
+    display: flex;
+}
+
+.dn-arr-bttn {
+    font-family: 'Nunito Sans', sans-serif; 
+    border-style: solid;
+    background-color: rgba(0,0,0,0);
+
+}
+
+.dn-arr-bttn span {
+    display: block;
+}
+
+
+
+
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.img-and-over-2 {
+    display: block;
+    position: relative;
+}
+
+.img-and-over-2 img {
+    z-index: 3;
+}
+
+.img-and-over-2 .inner{
+    z-index: 4;
+    display: flex;
+    color: black;
+}
+section,
+section.one-child,
+section.list {
+    display: flex;
+}
+
+.inverted {
+    color: white;
+}
+div.border {
+    display: block;
+    border-top: black 1px solid;
+}
+
+div.border.inverted {
+    border-top: white 1px solid;
+}
+
+.vert-space,
+.top-space,
+.bottom-space {
+    clear: both;
+}
+
+div.clear {
+    clear:both;
+    display: block;
+    height: 1px;
+}
+
+div.clear-button-cont {
+    display: flex;
+}
+
+a.clear-button {
+    font-family: 'Nunito Sans', sans-serif; 
+    border-style: solid;
+    border-color: black;
+    display: flex;
+}
+
+a.clear-button span {
+    display: block;
+}
+div.cont {
+    display: block;
+    background-color: white;
+}
+div.cont.inverted {
+    background-color: black;    
+}
+
+div.cont.grey {
+    background-color: #333333;
+}
+
+
+
+a.clear-button.inverted{
+    border-color: white;
+}
+a.clear-button.inverted span {
+    color: white;
+}
+
+/* DUAL */
+
+
+
+
+.dual-img-cont {
+    display: flex;
+    background-color: white;
+}
+
+
+.dual-img-cont img {
+    display: block;
+}
+
+.dual-text-cont {
+    display: flex;
+    background-color: white;
+}
+.dual-text-cont .half,
+.dual-text-cont section,
+.dual-text-cont .text {
+    display: block;
+}

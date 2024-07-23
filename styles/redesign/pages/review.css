@@ -1,0 +1,57 @@
+
+.review-wrapper {
+    margin: 0 auto;
+    width: 90%;  
+    min-height: 600px;
+    /* display: flex; 
+    justify-content: center; */
+}
+.form-wrapper {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+}
+.form-cont {
+    width: 100%;
+    display: flex;
+    
+}
+.form-cont.sm {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.form-cont.body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form-cont.bttn {
+
+}
+.form-cont.sm input, 
+.form-cont.body textarea {
+    font-size: 18px; 
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-radius:5px; 
+    font-family: 'Nunito Sans', serif;
+}
+.form-cont {
+    
+}
+
+.form-cont.sm input {
+    height: 30px;
+}
+
+.form-cont.body textarea {
+    resize: none;
+    width: 50%; 
+    height: 100px;
+}
